@@ -1,0 +1,28 @@
+[
+  {
+    "notebook": "01_GAN_부분가리기.ipynb",
+    "seconds": 37.46579074859619,
+    "test_iterations": 3,
+    "actual_updates": {
+      "generator": 3,
+      "discriminator": 3
+    },
+    "evaluation_cases": 51,
+    "export_zip": true,
+    "state": "complete",
+    "full_image_ratio": 0.0
+  },
+  {
+    "notebook": "02_GAN_부분전체혼합.ipynb",
+    "seconds": 35.51003551483154,
+    "test_iterations": 3,
+    "actual_updates": {
+      "generator": 3,
+      "discriminator": 3
+    },
+    "evaluation_cases": 51,
+    "export_zip": true,
+    "state": "complete",
+    "full_image_ratio": 0.2
+  }
+]

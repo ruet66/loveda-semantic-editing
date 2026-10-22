@@ -1,0 +1,32 @@
+{
+  "name": "semantic",
+  "parent_checkpoint": "/content/loveda_gan_v3/checkpoints/large_old_02000/models.pt",
+  "inherited_steps": 6000,
+  "additional_steps": 4000,
+  "train_sources": 256,
+  "train_patches": 1024,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "recipe": "texture",
+  "resize_convolution": false,
+  "optimizer": "new Adam, same for all arms",
+  "seed": 20261107,
+  "augmentation": "Aligned H/V flips and 0/90/180/270 degree rotations in every arm",
+  "training_targets": "Original maps/images only, newly sampled holes, class-uniform anchoring.",
+  "weights": {
+    "L1": 50,
+    "boundary": 10,
+    "LSGAN": 2,
+    "D_features": 3,
+    "perceptual": 2,
+    "texture": 0.5,
+    "gradient": 5
+  },
+  "decoder_semantic_bias": true,
+  "parent_resize_convolution": false,
+  "semantic_guidance": true,
+  "semantic_CE_weight": 3,
+  "teacher": "semantic_evaluator/model_02000.pt",
+  "semantic_guard": "Original-image teacher prediction must match the real label with confidence >=0.5; classes2..7 only. No edited maps/images used for training.",
+  "teacher_metric_warning": "For this guided arm, teacher recognition is an optimization diagnostic. Use a separately trained audit evaluator for comparison."
+}

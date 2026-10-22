@@ -1,0 +1,13 @@
+{
+  "no_training_in_final_delivery_checks": true,
+  "clean_folder_weight_install": true,
+  "package_sha256_and_cpu_forward": true,
+  "python_files_syntax_checked": 11,
+  "empty_output_notebooks": 2,
+  "git_excludes_weights_and_runtime_data": true,
+  "git_checkout_preserves_sha256": true,
+  "git_staged_files": 284,
+  "current_evaluation_and_comparison": true,
+  "different_case_input_rejected": true,
+  "note": "Temporary Git repository for validation only. No project repository initialized, commit or remote push performed."
+}

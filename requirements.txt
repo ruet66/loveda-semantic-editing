@@ -1,0 +1,6 @@
+# Install the server-matching CUDA torch/torchvision pair first.
+# CPU validation used Python3.10.11, torch2.11.0+cpu, torchvision0.26.0+cpu.
+# Runtime API requires torch>=2.4 and a compatible torchvision.
+numpy>=1.26,<3
+scipy>=1.11,<2
+Pillow>=10,<13

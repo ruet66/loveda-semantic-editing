@@ -1,0 +1,16 @@
+{
+  "synthetic_test_builder_cases": 7,
+  "all_seven_scenarios": true,
+  "reserved_final_real_data_used": false,
+  "final_evaluation_on_synthetic_fixture_only": true,
+  "comparison_common_cases": 2,
+  "automatic_seed_recorded_and_reused": true,
+  "config_changes_rejected": true,
+  "forward512_shape": [
+    1,
+    3,
+    512,
+    512
+  ],
+  "notes": "Final-test plumbing was exercised only on artificial fixture PNGs, not on real reserved Val data.512 forward compatibility is not512 quality validation."
+}

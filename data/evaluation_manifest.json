@@ -1,0 +1,640 @@
+{
+  "cases": [
+    {
+      "id": "legacy_water_expand_00",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_00",
+      "source_member": "Train/Urban/images_png/1975.png",
+      "destination_class": 4,
+      "pixels": 4586,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_expand_01",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_01",
+      "source_member": "Train/Urban/images_png/1791.png",
+      "destination_class": 4,
+      "pixels": 2310,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_expand_02",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_02",
+      "source_member": "Train/Urban/images_png/2289.png",
+      "destination_class": 4,
+      "pixels": 4780,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_expand_03",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_03",
+      "source_member": "Train/Rural/images_png/290.png",
+      "destination_class": 4,
+      "pixels": 2914,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_expand_04",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_04",
+      "source_member": "Train/Rural/images_png/807.png",
+      "destination_class": 4,
+      "pixels": 2467,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_expand_05",
+      "scenario": "water_expand",
+      "directory": "eval/legacy_water_expand_05",
+      "source_member": "Train/Rural/images_png/525.png",
+      "destination_class": 4,
+      "pixels": 2460,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_remove_00",
+      "scenario": "building_remove",
+      "directory": "eval/legacy_building_remove_00",
+      "source_member": "Train/Urban/images_png/2006.png",
+      "destination_class": 6,
+      "pixels": 5183,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_00",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_00",
+      "source_member": "Train/Urban/images_png/1975.png",
+      "destination_class": 5,
+      "pixels": 4654,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_01",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_01",
+      "source_member": "Train/Urban/images_png/1791.png",
+      "destination_class": 5,
+      "pixels": 881,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_02",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_02",
+      "source_member": "Train/Urban/images_png/2289.png",
+      "destination_class": 5,
+      "pixels": 4288,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_03",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_03",
+      "source_member": "Train/Rural/images_png/290.png",
+      "destination_class": 5,
+      "pixels": 2637,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_04",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_04",
+      "source_member": "Train/Rural/images_png/807.png",
+      "destination_class": 5,
+      "pixels": 3140,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_water_shrink_05",
+      "scenario": "water_shrink",
+      "directory": "eval/legacy_water_shrink_05",
+      "source_member": "Train/Rural/images_png/525.png",
+      "destination_class": 5,
+      "pixels": 2215,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_00",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_00",
+      "source_member": "Train/Urban/images_png/2332.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_01",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_01",
+      "source_member": "Train/Urban/images_png/2006.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_02",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_02",
+      "source_member": "Train/Urban/images_png/2262.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_03",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_03",
+      "source_member": "Train/Rural/images_png/290.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_04",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_04",
+      "source_member": "Train/Rural/images_png/1100.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_building_add_05",
+      "scenario": "building_add",
+      "directory": "eval/legacy_building_add_05",
+      "source_member": "Train/Rural/images_png/525.png",
+      "destination_class": 2,
+      "pixels": 240,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_00",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_00",
+      "source_member": "Train/Urban/images_png/2289.png",
+      "destination_class": 7,
+      "pixels": 4582,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_01",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_01",
+      "source_member": "Train/Urban/images_png/2148.png",
+      "destination_class": 7,
+      "pixels": 6214,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_02",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_02",
+      "source_member": "Train/Urban/images_png/2300.png",
+      "destination_class": 7,
+      "pixels": 1433,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_03",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_03",
+      "source_member": "Train/Rural/images_png/440.png",
+      "destination_class": 7,
+      "pixels": 1886,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_04",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_04",
+      "source_member": "Train/Rural/images_png/125.png",
+      "destination_class": 7,
+      "pixels": 1910,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_forest_to_agriculture_05",
+      "scenario": "forest_to_agriculture",
+      "directory": "eval/legacy_forest_to_agriculture_05",
+      "source_member": "Train/Rural/images_png/1029.png",
+      "destination_class": 7,
+      "pixels": 1234,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_agriculture_to_forest_00",
+      "scenario": "agriculture_to_forest",
+      "directory": "eval/legacy_agriculture_to_forest_00",
+      "source_member": "Train/Urban/images_png/2300.png",
+      "destination_class": 6,
+      "pixels": 3059,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_agriculture_to_forest_01",
+      "scenario": "agriculture_to_forest",
+      "directory": "eval/legacy_agriculture_to_forest_01",
+      "source_member": "Train/Rural/images_png/290.png",
+      "destination_class": 6,
+      "pixels": 4216,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_agriculture_to_forest_02",
+      "scenario": "agriculture_to_forest",
+      "directory": "eval/legacy_agriculture_to_forest_02",
+      "source_member": "Train/Rural/images_png/1210.png",
+      "destination_class": 6,
+      "pixels": 2095,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_agriculture_to_forest_03",
+      "scenario": "agriculture_to_forest",
+      "directory": "eval/legacy_agriculture_to_forest_03",
+      "source_member": "Train/Rural/images_png/525.png",
+      "destination_class": 6,
+      "pixels": 3247,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_00",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_00",
+      "source_member": "Train/Urban/images_png/1702.png",
+      "destination_class": 5,
+      "pixels": 3409,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_01",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_01",
+      "source_member": "Train/Urban/images_png/2510.png",
+      "destination_class": 5,
+      "pixels": 4944,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_02",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_02",
+      "source_member": "Train/Urban/images_png/2332.png",
+      "destination_class": 5,
+      "pixels": 2725,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_03",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_03",
+      "source_member": "Train/Urban/images_png/2006.png",
+      "destination_class": 5,
+      "pixels": 1926,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_04",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_04",
+      "source_member": "Train/Urban/images_png/1410.png",
+      "destination_class": 5,
+      "pixels": 7527,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "legacy_road_remove_05",
+      "scenario": "road_remove",
+      "directory": "eval/legacy_road_remove_05",
+      "source_member": "Train/Urban/images_png/1863.png",
+      "destination_class": 5,
+      "pixels": 6698,
+      "split": "legacy_development_reused"
+    },
+    {
+      "id": "fresh_val_urban_building_add",
+      "directory": "eval/fresh_val_urban_building_add",
+      "source_member": "Val/Urban/images_png/3635.png",
+      "label_member": "Val/Urban/masks_png/3635.png",
+      "split": "Val_development_reused",
+      "scenario": "building_add",
+      "domain": "Urban",
+      "crop_xywh": [
+        596,
+        768,
+        256,
+        256
+      ],
+      "destination_class": 2,
+      "anchor_class": 5,
+      "target_pixels": 1008,
+      "hole_pixels": 16384,
+      "selection": "Pre-generation QA revision: insertion rectangle98% and surrounding64square95% barren/agriculture labels, avoiding ambiguous background class1. Initial selection archived separately."
+    },
+    {
+      "id": "fresh_val_rural_building_add",
+      "directory": "eval/fresh_val_rural_building_add",
+      "source_member": "Val/Rural/images_png/2700.png",
+      "label_member": "Val/Rural/masks_png/2700.png",
+      "split": "Val_development_reused",
+      "scenario": "building_add",
+      "domain": "Rural",
+      "crop_xywh": [
+        508,
+        75,
+        256,
+        256
+      ],
+      "destination_class": 2,
+      "anchor_class": 7,
+      "target_pixels": 1008,
+      "hole_pixels": 16384,
+      "selection": "Pre-generation QA revision: insertion rectangle98% and surrounding64square95% barren/agriculture labels, avoiding ambiguous background class1. Initial selection archived separately."
+    },
+    {
+      "id": "fresh_val_urban_building_remove",
+      "directory": "eval/fresh_val_urban_building_remove",
+      "source_member": "Val/Urban/images_png/4129.png",
+      "label_member": "Val/Urban/masks_png/4129.png",
+      "split": "Val_development_reused",
+      "scenario": "building_remove",
+      "domain": "Urban",
+      "crop_xywh": [
+        445,
+        170,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 2,
+      "target_pixels": 966,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_building_remove",
+      "directory": "eval/fresh_val_rural_building_remove",
+      "source_member": "Val/Rural/images_png/3313.png",
+      "label_member": "Val/Rural/masks_png/3313.png",
+      "split": "Val_development_reused",
+      "scenario": "building_remove",
+      "domain": "Rural",
+      "crop_xywh": [
+        202,
+        243,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 2,
+      "target_pixels": 1159,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_water_expand",
+      "directory": "eval/fresh_val_urban_water_expand",
+      "source_member": "Val/Urban/images_png/3690.png",
+      "label_member": "Val/Urban/masks_png/3690.png",
+      "split": "Val_development_reused",
+      "scenario": "water_expand",
+      "domain": "Urban",
+      "crop_xywh": [
+        0,
+        14,
+        256,
+        256
+      ],
+      "destination_class": 4,
+      "anchor_class": 4,
+      "target_pixels": 618,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_water_expand",
+      "directory": "eval/fresh_val_rural_water_expand",
+      "source_member": "Val/Rural/images_png/3184.png",
+      "label_member": "Val/Rural/masks_png/3184.png",
+      "split": "Val_development_reused",
+      "scenario": "water_expand",
+      "domain": "Rural",
+      "crop_xywh": [
+        768,
+        105,
+        256,
+        256
+      ],
+      "destination_class": 4,
+      "anchor_class": 4,
+      "target_pixels": 1099,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_water_shrink",
+      "directory": "eval/fresh_val_urban_water_shrink",
+      "source_member": "Val/Urban/images_png/3664.png",
+      "label_member": "Val/Urban/masks_png/3664.png",
+      "split": "Val_development_reused",
+      "scenario": "water_shrink",
+      "domain": "Urban",
+      "crop_xywh": [
+        768,
+        540,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 4,
+      "target_pixels": 886,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_water_shrink",
+      "directory": "eval/fresh_val_rural_water_shrink",
+      "source_member": "Val/Rural/images_png/3405.png",
+      "label_member": "Val/Rural/masks_png/3405.png",
+      "split": "Val_development_reused",
+      "scenario": "water_shrink",
+      "domain": "Rural",
+      "crop_xywh": [
+        0,
+        761,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 4,
+      "target_pixels": 388,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_forest_to_agriculture",
+      "directory": "eval/fresh_val_urban_forest_to_agriculture",
+      "source_member": "Val/Urban/images_png/4137.png",
+      "label_member": "Val/Urban/masks_png/4137.png",
+      "split": "Val_development_reused",
+      "scenario": "forest_to_agriculture",
+      "domain": "Urban",
+      "crop_xywh": [
+        146,
+        654,
+        256,
+        256
+      ],
+      "destination_class": 7,
+      "anchor_class": 6,
+      "target_pixels": 3286,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_forest_to_agriculture",
+      "directory": "eval/fresh_val_rural_forest_to_agriculture",
+      "source_member": "Val/Rural/images_png/3401.png",
+      "label_member": "Val/Rural/masks_png/3401.png",
+      "split": "Val_development_reused",
+      "scenario": "forest_to_agriculture",
+      "domain": "Rural",
+      "crop_xywh": [
+        540,
+        337,
+        256,
+        256
+      ],
+      "destination_class": 7,
+      "anchor_class": 6,
+      "target_pixels": 3894,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_agriculture_to_forest",
+      "directory": "eval/fresh_val_urban_agriculture_to_forest",
+      "source_member": "Val/Urban/images_png/3631.png",
+      "label_member": "Val/Urban/masks_png/3631.png",
+      "split": "Val_development_reused",
+      "scenario": "agriculture_to_forest",
+      "domain": "Urban",
+      "crop_xywh": [
+        768,
+        110,
+        256,
+        256
+      ],
+      "destination_class": 6,
+      "anchor_class": 7,
+      "target_pixels": 4096,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_agriculture_to_forest",
+      "directory": "eval/fresh_val_rural_agriculture_to_forest",
+      "source_member": "Val/Rural/images_png/2593.png",
+      "label_member": "Val/Rural/masks_png/2593.png",
+      "split": "Val_development_reused",
+      "scenario": "agriculture_to_forest",
+      "domain": "Rural",
+      "crop_xywh": [
+        686,
+        705,
+        256,
+        256
+      ],
+      "destination_class": 6,
+      "anchor_class": 7,
+      "target_pixels": 4096,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_road_remove",
+      "directory": "eval/fresh_val_urban_road_remove",
+      "source_member": "Val/Urban/images_png/3862.png",
+      "label_member": "Val/Urban/masks_png/3862.png",
+      "split": "Val_development_reused",
+      "scenario": "road_remove",
+      "domain": "Urban",
+      "crop_xywh": [
+        0,
+        429,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 3,
+      "target_pixels": 2589,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_road_remove",
+      "directory": "eval/fresh_val_rural_road_remove",
+      "source_member": "Val/Rural/images_png/3163.png",
+      "label_member": "Val/Rural/masks_png/3163.png",
+      "split": "Val_development_reused",
+      "scenario": "road_remove",
+      "domain": "Rural",
+      "crop_xywh": [
+        0,
+        107,
+        256,
+        256
+      ],
+      "destination_class": 1,
+      "anchor_class": 3,
+      "target_pixels": 329,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_urban_barren_to_agriculture",
+      "directory": "eval/fresh_val_urban_barren_to_agriculture",
+      "source_member": "Val/Urban/images_png/4048.png",
+      "label_member": "Val/Urban/masks_png/4048.png",
+      "split": "Val_development_reused",
+      "scenario": "barren_to_agriculture",
+      "domain": "Urban",
+      "crop_xywh": [
+        32,
+        418,
+        256,
+        256
+      ],
+      "destination_class": 7,
+      "anchor_class": 5,
+      "target_pixels": 4025,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    },
+    {
+      "id": "fresh_val_rural_barren_to_agriculture",
+      "directory": "eval/fresh_val_rural_barren_to_agriculture",
+      "source_member": "Val/Rural/images_png/2853.png",
+      "label_member": "Val/Rural/masks_png/2853.png",
+      "split": "Val_development_reused",
+      "scenario": "barren_to_agriculture",
+      "domain": "Rural",
+      "crop_xywh": [
+        172,
+        427,
+        256,
+        256
+      ],
+      "destination_class": 7,
+      "anchor_class": 5,
+      "target_pixels": 3417,
+      "hole_pixels": 16384,
+      "selection": "Fixed seed and label geometry only; no generation results consulted."
+    }
+  ],
+  "note": "35 historical +16 Val development cases; all reused development, none are independent final test."
+}

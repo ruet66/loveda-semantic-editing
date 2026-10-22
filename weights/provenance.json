@@ -1,0 +1,7 @@
+{
+  "generator": "Custom GAN trained from scratch on LoveDA, then continued; not an external pretrained image generator",
+  "base_sha256": "ef23ed0a2a3a4ca398d279ce07cc45b0a6e01788bfefe2248cf9f823a660a572",
+  "teacher": "Frozen DeepLabV3 MobileNetV3, LoveDA-trained teacher",
+  "audit": "Separate-seed LoveDA audit, not used in generator loss",
+  "feature_extractor": "ImageNet SqueezeNet1.1 features[:8], frozen, supplied offline"
+}

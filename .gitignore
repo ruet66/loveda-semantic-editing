@@ -1,0 +1,15 @@
+# Separate weight archive; install with setup_assets.py after cloning.
+/weights/*.pt
+/weights/*.part
+/external_data/
+/runs/
+/checks/
+/run_configs/
+/baseline_evaluation*/
+/*_results.zip
+/*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env

@@ -1,0 +1,15 @@
+{
+  "num_train_images": 256,
+  "patch_size": 256,
+  "patches_per_image": 4,
+  "updates": 4000,
+  "batch_size": 4,
+  "full_image_ratio": 0.2,
+  "balance_strength": 0.3,
+  "seed": 42,
+  "lr": 0.0001,
+  "save_every": 100,
+  "amp": true,
+  "cpu_threads": 4,
+  "initial_checkpoint": "weights/semantic_04000.pt"
+}

@@ -1,0 +1,2 @@
+# Keep SHA256-checked files byte-identical across Windows/Linux checkouts.
+* -text

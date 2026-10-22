@@ -1,0 +1,17 @@
+{
+  "device": "cuda",
+  "tested_updates": 3,
+  "actual_updates": {
+    "generator": 3,
+    "discriminator": 3
+  },
+  "both_mask_modes": true,
+  "paused_and_resumed": true,
+  "resume_parameter_max_difference": {
+    "generator": 0.0,
+    "discriminator": 0.0
+  },
+  "original_weights_unchanged": true,
+  "update_parameter_max_difference": 0.0003187386319041252,
+  "note": "Only a tiny engineering smoke check. Not evidence of edit quality or convergence; cross-device bit identity is not promised."
+}
